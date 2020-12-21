@@ -13,7 +13,9 @@ Enter festive_imbiber.ahk!
 This script will:
 
 - Consume a full stack of tonics, waiting 3.5 seconds between each tonic (the extra .5 second is to account for latencies)
-- When a stack is fully consumed, it will move the cursor to the next stack in your bag and repeat the process for as many stacks as you have.
+- When a stack is fully consumed, it will move the cursor 53 units to the right (over to the next stack in your bag) and repeat the process for as many stacks as you have on the same row.
+
+[Click here to see a video of the imbiber in action](assets/imbibe.mp4).
 
 ### How to use it
 
@@ -26,7 +28,7 @@ Please note this script does not know when it has reached the end of the screen 
 You may need to tune the script to meet following requirements:
 
 - Your maximum stack size. The default size of a stack in this script is 250. If you have previously purchased [storage expanders](https://wiki.guildwars2.com/wiki/Storage_Expander), you will need to increase the value of the `SwitchStackAt` variable.
-- UI scaling. This script was created for a game client with `Options > Graphic Options > Interface size` set to small. If you are using a different value, you may need to increase the first integer property of the `MouseMove` value from `50`.
+- UI scaling. This script was created for a game client with `Options > Graphic Options > Interface size` set to small. If you are using a different value, you may need to increase the first integer property of the `MouseMove` value from `53`.
 
 # candycorn_gobbler.ahk
 

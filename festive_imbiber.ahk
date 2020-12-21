@@ -2,7 +2,7 @@ Interval := 1000 * 3.5
 DrinksImbibed := 0
 
 SwitchStackIncrement := 0
-SwitchStackAt := 250
+SwitchStackAt := 3
 
 f7::
   Toggle := !Toggle
@@ -25,7 +25,7 @@ DoTheChug:
 
   if (SwitchStackIncrement >= SwitchStackAt) {
     SwitchStackIncrement = 0
-    MouseMove, 50, 0, 10, R
+    MouseMove, 53, 0, 10, R
   }
   
   Click, 2
