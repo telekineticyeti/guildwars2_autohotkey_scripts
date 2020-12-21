@@ -2,7 +2,7 @@ Interval := 1000 * 3.5
 DrinksImbibed := 0
 
 SwitchStackIncrement := 0
-SwitchStackAt := 3
+SwitchStackAt := 250
 
 f7::
   Toggle := !Toggle
