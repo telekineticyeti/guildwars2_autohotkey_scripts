@@ -15,7 +15,9 @@ This script will:
 - Consume a full stack of tonics, waiting 3.5 seconds between each tonic (the extra .5 second is to account for latencies)
 - When a stack is fully consumed, it will move the cursor 53 units to the right (over to the next stack in your bag) and repeat the process for as many stacks as you have on the same row.
 
-[Click here to see a video of the imbiber in action](assets/imbibe.mp4).
+Click below to see a video of the imbiber in action, with stack size set to 3:
+
+[![Click here to see a video of the imbiber in action, with stack size set to 3](https://img.youtube.com/vi/oXSInKh3MV4/hqdefault.jpg)](https://www.youtube.com/watch?v=oXSInKh3MV4)
 
 ### How to use it
 
