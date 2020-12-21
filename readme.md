@@ -43,6 +43,10 @@ This script will:
 
 Please note this script does not know when your inventory is empty of candycorn, and will continue to run.
 
+Click below to see a video of the gobbler in action
+
+[![Click to see a video of the gobbler in action](https://img.youtube.com/vi/xF9km3d2qDY/hqdefault.jpg)](https://www.youtube.com/watch?v=xF9km3d2qDY)
+
 ### How to use it
 
 Load up your inventory with candy corn, hover over the Candy Corn Gobbler and hit F8 to start gobbling.
